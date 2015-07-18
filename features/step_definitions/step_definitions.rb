@@ -25,10 +25,6 @@ Então(/^o site deverá exibir os detalhes do produto$/) do
   expect(page).to have_content("TV Samsung 40” com Função Futebol")
 end
 
-Então(/^o site deverá exibir o produto adicionado$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
 Dado(/^clico em meu carrinho$/) do
   find('.number', :text => '1').click
 end
